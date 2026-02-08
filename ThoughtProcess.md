@@ -20,3 +20,9 @@ Fibonacci Sequence: 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 98
 
 this is an example of a legal fib sequence: 1, 1, 2, 3, 5
 algorithm is needed to check for 5 consecutive numbers in the Fibonacci sequence next to each other [does this include diagonals?]
+
+Improvements to make:
+
+- check only the affected row and column for fib checkers
+- use one generic loop for all directions
+- don't build arrays each time

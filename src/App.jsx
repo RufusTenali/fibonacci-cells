@@ -114,7 +114,7 @@ function App() {
 
   // Automatically detect Fibonacci sequences whenever grid changes
   useEffect(() => {
-    console.log("Updated grid");
+    // console.log("Updated grid");
     
     // Find all Fibonacci sequences in the grid
     const sequences = findFibonacciSequences();
@@ -238,7 +238,7 @@ function App() {
 
 return (
   <div>
-    <h2>Fibonacci Cells</h2>
+    <h2 onClick={resetBoard} style={{fontSize: "30px", cursor: "pointer"}}>Fibonacci Cells</h2>
     <div
       style={{
         display: "grid",
@@ -277,7 +277,7 @@ return (
         ))
       )}
     </div>
-<div style={{padding: "20px"}}>
+<div style={{padding: "25px", fontSize: "25px"}}>
     <button onClick={resetBoard}>Reset</button>
 </div>
   </div>
